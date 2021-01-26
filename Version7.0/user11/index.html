@@ -36,7 +36,7 @@
     <!---------------------------------- Begin the nav-bar ----------------------------------->
     <div class="menu">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a href="file:///Users/229208/Applications/mampstack/apache2/htdocs/WebDev/Version7.0/user11/info.html" class="navbar-brand">Help The Animals</a>
+            <a href="index.html" class="navbar-brand">Help The Animals</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,7 +44,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav"></div>
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-                    <a href="info.html" class="nav-item nav-link active"tabindex="0">Info</a>
+                    <a href="index.html" class="nav-item nav-link active"tabindex="0">Info</a>
                     <a href="rhino.html" class="nav-item nav-link"tabindex="0">Sumatran Rhino</a>
                     <a href="Macaw.html" class="nav-item nav-link" tabindex="0">Spix's Macaw</a>
                     <a href="turtle.html" class="nav-item nav-link" tabindex="0">Yangtze giant softshell
@@ -64,17 +64,18 @@
     onclick="document.getElementById('demo').innerHTML = Date()">
     Click me to display Date and Time.</button>
     
+    
     <p id="demo"></p>
    
    
    
     <center>
-        <h2>Why are Animals going Extinct</h2>
+        <h2> <i class="fa fa-circle" aria-hidden="true"></i> Why are Animals going Extinct</h2>
     </center>
     
     <h4>Animlas that have went extinct in 2020</h4>
     <p class="solid">
-    <table>
+    <table class="table table-striped">
         <thead>
             <tr>
                 <th>Rank</th>
@@ -107,7 +108,16 @@
 
 <p class="basic">
     Species become endangered for two main reasons: loss of habitat and loss of genetic variation. A loss of habitat can happen naturally. Human activity can also contribute to a loss of habitat. Development for housing, industry, and agriculture reduces the habitat of native organisms.
+    It's not just humans that have to deal with epidemics. Disease outbreaks can kill thousands of animals very quickly. They hit especially hard if the animals are rare, threatened or fragmented species. Over the last few decades many new animal diseases have emerged, and older diseases have spread to new areas.
 </p>
 </body>
 
 </html>
+<div class="container">
+    <h2>Progress Bar</h2>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        <span class="sr-only">100% Complete</span>
+      </div>
+    </div>
+  </div>
